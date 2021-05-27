@@ -1,0 +1,78 @@
+.holder {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url("../assets/theater-image-background.png");
+    height: 50vh;
+    background-size: cover;
+}
+.appearontop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.button {
+    grid-area: button;
+    border: none;
+    color:steelblue;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+ 
+  .logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.logo-wrapper img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.row{
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.april{
+    background-size: 5px;
+    background-color: turquoise;
+    color: white;
+    font-size: x-large;
+    align-content: center;
+    padding-left: 50%;
+}
+
+
+.info{
+    font-size: large;
+}
+
+.bottom{
+    background-color: black;
+}
+
+.b1{
+    padding: 10px;
+}
+
+.container{
+    background-color: black;
+    justify-content: right;
+}
+
+.col{
+    color: white;
+    justify-content: right;
+}
